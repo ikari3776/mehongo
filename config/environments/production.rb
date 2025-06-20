@@ -96,4 +96,5 @@ Rails.application.configure do
   # config.host_authorization = { exclude: ->(request) { request.path == "/up" } }
   config.hosts << 'mehongo.com'
   config.hosts << 'www.mehongo.com'
+  config.hosts << 'mehongo.onrender.com'
 end
